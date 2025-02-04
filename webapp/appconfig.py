@@ -1,0 +1,2 @@
+SHOW_LANG_SEL = False
+DEFAULT_LANG = 'en'

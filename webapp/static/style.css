@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'Vodafone';
+    src: url('../static/VodafoneVF_Wght_W.woff2') format('woff2');
+}
+
+
+* {
+    font-family: 'Vodafone';
+    font-size: 100%;
+    text-align: center;
+}
+
+/* format the divisions */
+#NaoChat,
+#speech,
+#move {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 20px;
+    /* border: 7px solid blue; */
+    /* position: relative; */
+    margin-bottom: 50px;
+    font-size: 25px;
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    /* width: 50%;
+    height: 50%; */
+    /* padding: 20px 40px; */
+    /* float: left; */
+    /* position: relative; */
+    /* left: 50%; */
+}
+
+.question-btn {
+    margin-right: 2px;
+    margin-left: 2px;
+    text-align: center;
+    padding: 50px 100px;
+    margin-bottom: 4px;
+    border: 1px solid red;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.question-btn:hover{
+    background-color: rgb(218, 218, 218);
+}
+
+.language-btn {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 15px;
+    text-align: center;
+    transition-duration:  0.3s;
+    cursor: pointer;
+}
+
+.language-btn:hover {
+    background-color: rgb(83, 83, 83);
+    color: white;
+}
+
+#lang {
+    position: fixed;
+    right: 1%;
+    top: 1% ;
+}
+
+#text {
+    /* border: 7px solid red; */
+    margin-top: 50px;
+    margin-bottom: 10px;
+    width: 50%;
+    height: 50%;
+    margin: auto;
+}
+
+p {
+    font-size: 30px;
+}
+
+h1 {
+    font-family: "Vodafone";
+    font-weight: bold;
+    font-size: 80px;
+}
+
+body {
+    margin: 0;
+    background-image: url("nao1.png");
+}

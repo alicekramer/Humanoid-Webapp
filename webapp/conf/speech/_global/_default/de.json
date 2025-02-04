@@ -1,0 +1,68 @@
+{
+    "Greet": [
+        "Willkommen zum Pioneers & Partners Day bei Vodafone! Heute schaffen wir Raum für Innovation, Diskussion und Austausch. Lassen Sie uns gemeinsam neue Ideen entwickeln und die Zukunft gestalten.",
+        "Schön, dass Sie beim Pioneers & Partners Day von Vodafone dabei sind! Dieser Tag ist für mutige Ideen und inspirierenden Dialog. Gemeinsam finden wir Wege, Innovationen erfolgreich umzusetzen.",
+        "Herzlich willkommen zum Pioneers & Partners Day bei Vodafone! Hier geht es um den Austausch von Ideen und das Schaffen von Innovationen. Lassen Sie uns zusammen mutige Schritte in die Zukunft wagen.",
+        "Willkommen beim Pioneers & Partners Day bei Vodafone! Heute dreht sich alles um kreative Ideen und den erfolgreichen Austausch. Gemeinsam setzen wir Impulse für die Zukunft.",
+        "Willkommen zum Pioneers & Partners Day bei Vodafone! Ein Tag voller Ideen, Diskussionen und neuer Perspektiven. Lassen Sie uns Innovationen vorantreiben.",
+        "Schön, dass Sie heute beim Pioneers & Partners Day von Vodafone dabei sind! Gemeinsam schaffen wir den Raum, um über die Zukunft der Innovationen zu sprechen und voneinander zu lernen.",
+        "Herzlich willkommen zum Pioneers & Partners Day von Vodafone! Heute möchten wir Ideen austauschen und neue Impulse setzen, um Innovationen erfolgreich umzusetzen.",
+        "Es freut uns, Sie zum Pioneers & Partners Day bei Vodafone begrüßen zu dürfen! Lassen Sie uns diesen Tag nutzen, um zu diskutieren, zu inspirieren und Innovationen gemeinsam voranzutreiben.",
+        "Willkommen zum Pioneers & Partners Day bei Vodafone! Heute stehen der Austausch und neue Ideen im Mittelpunkt. Gemeinsam bringen wir Innovationen auf den nächsten Level.",
+        "Schön, dass Sie beim Pioneers & Partners Day bei Vodafone dabei sind! Lassen Sie uns heute gemeinsam den Weg für erfolgreiche Innovationen ebnen und kreative Lösungen finden."
+    ],
+    "Wellbeing": [
+        "Mir geht es super!",
+        "Prima, danke!",
+        "Hervorragend",
+        "Alles Tip, Top",
+        "Sehr gut, danke."
+    ],
+    "Who": [
+        "Ich bin Nao. Ich bin 58 centimeter groß und wurde ursprünglich in Frankreich von Aldebaran Robotics entwickelt. Schön dich kennenzulernen"
+    ],
+    "FunFacts": [
+        "Ich besitze 4 direktionale Mikrofone und Lautsprecher, damit ich mit dir kommunizieren kann.",
+        "Ich habe 7 Berührungssensoren am Kopf, den Händen und Füßen.",
+        "Um meine Umgebung wahrnehmen zu können verwende ich Sonare und eine inertiale Messeinheit."
+    ],
+    "Joke": [
+        "Was macht ein arbeitsloser Schauspieler?   . Spielt keine Rolle.",
+        "Was macht ein Mathematiker in seinem Garten?   . Wurzeln ziehen.",
+        "Was isst der Dalai Lama zum Frühstück.   . Ein Buddha Brot.",
+        "Ich habe einen Bahnwitz, ... aber ich weiß nicht, ob der ankommt."
+    ],
+    "Date": [
+        "Heute ist der {date}"
+    ],
+    "Time": [
+        "Es ist {hour} Uhr {min}"
+    ],
+    "OMR": [
+        "Willkommen auf dem Online Marketing Rocks tar Festival. Das Team der Vodafone Innovationswerkstatt stellt dir heute {showcase_num} tolle show keises vor. Hol dir zum Beispiel ein erfrischendes Getränk an unserer Roboter Cocktail Bar oder lass dich von unserem Roboterbegleiter, Spot, entertainen"
+    ],
+    "Cocktail": [
+        "Die cocktailbar wird mithilfe von selbst konzipierter software von den Franka Emika Roboter Armen angesteuert. Die Arme haben über sieben Freiheitsgrade und besitzen Drehmomentsensoren an jedem Gelenk. Die Arme verfuegen eine Nutzlast von drei kilogramm und haben eine Reichweite von 855 milimeter."
+    ],
+    "Spot": [
+        "Der Boston Dynamic Spot ist ein wendiger, mobiler Roboter, der mithilfe seiner beispiellosen Mobilität Inspektionsaufgaben und Datenerfassung einfach meistert. Mithilfe seines Greifarmes kann er Türen öffnen und Gegenstände bewegen. Er kann auch Treppen steigen und auf verschiedenen Oberflächen problemlos laufen."
+    ],
+    "Airship": [
+        "Das 5G Air schipp ist ein Hybridflugzeug, dass die Flugkonzepte von Hubschraubern, Flugzeugen und Ballons kombiniert. Das Luftschiff wird mit 5G Mobilfunknetz verbunden um die Flugweitreiche zu erhöhen."
+    ],
+    "RedB": [
+        "Die Red Box ist die zentrale Netzkomponente die den Vodafone-Stand auf der O M R mit einem privaten 5G Mobilfunknetz versorgt."
+    ],
+    "SmS": [
+        "Der intelligente Desinfektionsmittelspender erlaubt es, ueber einen Dashboard den Fuellstand zu kontrollieren. Durch ein fruehzeitiges Nachfuellen kann das Maximum an Gesundheitsversorgung gewaehrleistet werden. Es sind insgesamt 10 Spender auf der O M R aufgebaut. Probiert sie mal aus!"
+    ],
+    "Bee": [
+        "Das Giga Bi Protekt plus Projekt bietet eine I O T Lösung mit Diebstahlschutz anwendung, welche mithilfe von Sensoren Daten sammelt, die auf einem interaktiven Dashboard anzeigt werden. So bleiben Imker über den Stand der Honig-produktion und Gesundheit der Bienen informiert."
+    ],
+    "eon": [
+        "Der Wasserheld wurde entwickelt um Leitungswasserschäden früher erkennen zu können und Resourcen sparen zu können. Er hat ein Narrow Band internet of things Gateway, ein Wireless M BUS Modul und schickt Zählerdaten in die Cloud."
+    ],
+    "V": [
+        "Die Vodafone Innovationswerkstatt ist ein kreativer work space auf dem Vodafone Campus in Düsselforf, wo junge talentierte Ingenieure zusammen an innovativen Robotik und Internet of Things Projekten arbeiten."
+    ]
+}

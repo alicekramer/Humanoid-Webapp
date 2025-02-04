@@ -1,0 +1,68 @@
+{
+    "Greet": [
+        "Whatsup",
+        "Hey",
+        "Yo",
+        "Good Day",
+        "Hiya",
+        "Nice to meet you"
+    ],
+    "Wellbeing": [
+        "I am very well.",
+        "Fabulous!",
+        "Superb",
+        "I feel splendid"
+    ],
+    "Who": [
+        "I am Nao. I am 58 centimeters tall and was originally designed by Aldebaran Robotics in France. Nice to meet you"
+    ],
+    "FunFacts": [
+        "I possess four directional microphones and speakers, such that I can communicate with you.",
+        "I have seven touch sensors located on my head, hands and feet",
+        "I have sonars and an intertial unit to enable me perceive my environment"
+    ],
+    "Joke": [
+        "Whats the best thing about Switzerland?   .I don't know, but the flag is a big plus",
+        "Today, I invented a new word.   . Plagiarism!",
+        "Did you hear about the claustrophobic austronaut?   . He just needed a little space.",
+        "Why do scientists not trust atoms?  . Because they make up everything",
+        "What did the left eye say to the right eye?   . Between you and me, something smells."
+    ],
+    "Date": [
+        "Today is {date}"
+    ],
+    "Time": [
+        "It is {hour} {min}"
+    ],
+    "OMR": [
+        "Welcome to the Online Marketing Rockstars Festival. The team of the vodafone innovation garage would like to present to you {showcase_num} ingenious showcases today. Come get a beverage made and served by robots at our cocktailbar or let yourself be entertained by our Robotdog, Spot!"
+    ],
+    "Cocktail": [
+        "With the help of the software designed by our engineers, the cocktailbar is controlled using the Franka Emika robot arms. The arms posess seven degrees of freedom and have torque sensors on every joint. The arms can be stressed with a weight of 3 kilograms and have a motion range of 855 millimeter. Get yourself a drink!"
+    ],
+    "Spot": [
+        "The Boston Dynamics Spot is an agile robot that navigates terrain with outstanding mobilitiy, allowing you to automate routine inspection tasks and data capture safely. Using his arm, he can open doors and move obstacles. He can also take stairs and walk on surfaces with different degrees of friction."
+    ],
+    "Airship": [
+        "The 5G Airship is a hybrid aircraft inspired by hellicopters, planes and balloons. The aircraft is supplied with 5 G mobile network, allowing it to reach greater flying ranges."
+    ],
+    "RedB": [
+        "The Reb Box is the central network component that supplies the Vodafone stand here at the O M R with a private 5 G mobile network."
+    ],
+    "SmS": [
+        "The intelligent smart sanitizers can monitor the liquid levels of the dispensers using a dashboard. This tracking system enables customers to refill the sanitizer liquid in a time efficient manner."
+    ],
+    "Bee": [
+        "The Giga Bee Protect project offers an I O T anti theft solution. Using a collection of sensors, data is collected and displayed on an interactive dashboard. The dashboard allows bee keepers to monitor the well-being of the bees as well as their honey production."
+    ],
+    "eon": [
+        "The water hero was developed to discover water damages early and save resources. It has a narrow band I O T gateway, a wireless M BUS module and sends water meter data into the cloud."
+    ],
+    "V": [
+        "The Vodafone Innovation Garage is the creative workspace on the main Vodafone Campus in Germany, Düsseldorf, where our talented engineers work on state of the art internet of things and robotic showcases."
+    ],
+    "GreetShowcase": ["Welcome to Germany!"],
+"TickleShowcase": ["Tickle me!"],
+"MorningShowcase": ["Good morning!"],
+"LovelyShowcase": ["Have a lovely day in Düsseldorf!"]
+}

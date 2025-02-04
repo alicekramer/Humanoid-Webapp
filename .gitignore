@@ -1,0 +1,7 @@
+*.pyc
+*.swp
+__pycache__
+webapp/react-flask-app/node_modules
+.DS_Store
+static/camImage.png
+venv/

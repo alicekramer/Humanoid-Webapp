@@ -1,0 +1,16 @@
+{
+    "text": {
+        "Title": "Unterhalte dich mit Nao!",
+        "Para": "Frage ihn über die showcases die hier an der OMR gezeigt werden",
+        "Click": "Klicke hier"
+    },
+    "NaoChat": {
+        "Greet": "Hallo!",
+        "Wellbeing": "Wie geht es dir?",
+        "Who": "Wer bist du?",
+        "FunFacts": "Erzähl mir mehr von dir",
+        "Joke": "Kannst du mir einen Witz erzählen?",
+        "Date": "Welcher Tag ist heute?",
+        "Time": "Wie viel Uhr haben wir?"
+    }
+}

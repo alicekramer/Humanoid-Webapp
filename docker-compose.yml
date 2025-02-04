@@ -1,0 +1,21 @@
+version: "2"
+services:
+  naogreeter:
+    image: localhost/naogreeter
+    build:
+      context: .
+    restart: unless-stopped
+    environment:
+      - NAO_IP=10.2.100.61
+      - SHOWCASE_FLAVOUR=
+    ports:
+      - 5001:5000
+    develop:
+      watch:
+        - path: ./webapp
+          ignore:
+            - requirements.txt
+          target: /srv/app
+          action: sync+restart
+        - path: ./webapp/requirements.txt
+          action: rebuild

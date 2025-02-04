@@ -1,0 +1,18 @@
+{
+    "text": {
+        "Title": "Unterhalte dich mit Nao!",
+        "Para": "Frage ihn über die showcases die hier an der OMR gezeigt werden",
+        "Click": "Klicke Hier"
+    },
+    "speech": {
+        "OMR": "Wo sind wir?",
+        "Cocktail": "Erzähl mir über die Roboter Cocktailbar",
+        "Spot": "Wer ist Spot?",
+        "Airship": "Erzähl mir mehr von dem 5G Airship Case",
+        "RedB": "Was ist die Red-Box?",
+        "SmS": "Was sind die Smart Sanitizer?",
+        "Bee": "Was ist das GigaBeeProtect+ Projekt?",
+        "eon": "Erzähl mir was über den Wasserhelden",
+        "V": "Was ist die Vodafone Innovationswerkstatt?"
+    }
+}

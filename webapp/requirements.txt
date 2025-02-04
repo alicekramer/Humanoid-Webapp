@@ -1,0 +1,7 @@
+flask
+pillow
+babel
+python-dotenv
+monotonic
+qi
+raven[flask]

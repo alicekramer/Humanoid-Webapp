@@ -1,0 +1,17 @@
+{
+    "text": {
+        "Title": "Unterhalte dich mit Nao!",
+        "Para": "Frage ihn über die showcases die hier an der OMR gezeigt werden",
+        "Click": "Klicke Hier"
+    },
+    "move": {
+        "Stand/Gestures/Hey_3": "Begrüße uns",
+        "Stand/Gestures/Salute_1": "Verbeuge dich",
+        "Stand/Gestures/Stretch_1": "Strecke dich",
+        "Stand/Waiting/LoveYou_1": "Ich liebe dich",
+        "Stand/Waiting/Fitness_3": "Zeig uns mal wie stark du bist...",
+        "Stand/Waiting/AirGuitar_1": "Kannst du uns ein Lied vorspielen?",
+        "Stand/Waiting/DriveCar_1": "Steig ins Auto ein",
+        "Stand/Waiting/HappyBirthday_1": "Singe Happy Birthday"
+    }
+}

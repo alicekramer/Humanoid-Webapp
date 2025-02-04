@@ -1,0 +1,16 @@
+{
+    "text": {
+        "Title": "Chat with Nao!",
+        "Para": "Ask him about the showcases that are present here at the OMR",
+        "Click": "Click Here"
+    },
+    "NaoChat": {
+        "Greet": "Hi",
+        "Wellbeing": "How are you?",
+        "Who": "Who are you?",
+        "FunFacts": "Tell me more about yourself",
+        "Joke": "Can you tell me a joke?",
+        "Date": "What is the date today?",
+        "Time": "What time is it?"
+    }
+}

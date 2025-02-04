@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="{{ language|d('en') }}">
+
+<head>
+    <title> NAO ROBOT MOVEMENT</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='home.css') }}">
+    <!-- <script src="../static/timeout.js"></script>  -->
+    <script>
+        function thenHandler(id, resp) {
+            if (id == "Stand/Waiting/TakePicture_1") {
+                if (resp instanceof Response && resp.ok && resp.headers.get("Content-Type").startsWith("image/")) {
+                    resp.blob().then(v => {
+                        document.getElementById("modal_img").src = URL.createObjectURL(v);
+                    })
+                }
+            }
+        }
+        document.addEventListener("DOMContentLoaded", (ev) => {
+            document.querySelectorAll('.question-btn').forEach(
+                (v, k, p) => {
+                    v.addEventListener('click', (ev) => {
+                        console.log(`Id: ${ev.currentTarget.id}, Class: ${ev.currentTarget.className}`)
+                        let id = event.currentTarget.id;
+                        if (id == "Stand/Waiting/TakePicture_1"){
+                            modal.style.display = "block";
+                            document.getElementById('modal_img').src = '../static/loading-spinner.svg';
+                        }
+                        fetch("/test", {
+                            method: "POST",
+                            headers: {
+                                "Content-Type": "application/json"
+                            },
+                            body: JSON.stringify({
+                                "id": ev.currentTarget.id,
+                                "class": ev.currentTarget.className
+                            })
+                        }).then(r => thenHandler(id, r))
+                    })
+                }
+            )
+        });
+    </script>
+</head>
+
+<body>
+    <video id="background-video" autoplay loop muted src="../static/VF_Living_Pattern_Data_1920.mp4">
+        <source src="../static/VF_Living_Pattern_Data_1920.mp4" type="video/mp4">
+    </video>
+    <div id="lang">
+        <a href="{{url_for('movement', lang='en')}}"><button id="btn-eng" class="language-btn">ENG</button></a>
+        <a href="{{url_for('movement', lang='de')}}"><button id="btn-de" class="language-btn">DE</button></a>
+    </div>
+
+    <div class='top-container'>
+        <h1>MOVE</h1>
+        <div class="hero-btns">
+            <a href="{{url_for('chat', lang=lang)}}"><button class="home-btn"> CHAT </button></a>
+            <a href="/home"><button class="home-btn"> HOME </button></a>
+            <!--<a href="{{url_for('showcases', lang=lang)}}"><button class="home-btn"> SHOWCASES </button></a>-->
+        </div>
+        <img id="arrow" src="../static/icons/arrow.png" width="80px" height="100px">
+    </div>
+    <div class="modal-container">
+        <button id="Stand/Waiting/TakePicture_1" class="question-btn lang--{{ lang }} move"> <img
+                src="../static/icons/camera.png" width="100px" height="100px"> </button>
+
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <img id="modal_img">
+
+            </div>
+
+        </div>
+    </div>
+    <div class="button-container">
+        <!-- <button id="Stand/Waiting/TakePicture_1" class="question-btn lang--{{ lang }} move"> Picture Button Test</button> -->
+        <!-- Trigger/Open The Modal -->
+        <!-- insert icon -->
+        {%for key,value in statements.items()%}
+        <div id="{{ key }}">
+            {%if key=="text"%}
+            <!-- {%for key2, value2 in value.items()%}
+                            {%if key2=="Title"%}
+                                <h1> {{value2}} </h1>
+                            {%elif key2=="Para"%}
+                                <p> {{value2}}</p>
+                            {%elif key2=="Click"%}
+                                <p> {{value2}}</p>
+                            {%endif%}
+                        {%endfor%} -->
+            {%elif key=="move"%}
+            {%for key2, value2 in value.items()%}
+            <button id="{{ key2 }}" class="question-btn lang--{{ lang }} {{ key }}"> {{ value2 }}</button>
+            {%if key2== "Stand/Waiting/TakePicture_1"%}
+            {%endif%}
+            {%endfor%}
+            {%endif%}
+        </div>
+        {%endfor%}
+
+    </div>
+    <script>
+
+        // Get the modal
+        var modal = document.getElementById("myModal");
+
+        // Get the button that opens the modal
+        var btn = document.getElementById("myBtn");
+
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function () {
+            console.log("span clicked worked")
+            modal.style.display = "none";
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                "window worked"
+                modal.style.display = "none";
+            }
+        }
+    </script>
+</body>
+
+</html>

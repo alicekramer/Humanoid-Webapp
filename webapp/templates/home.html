@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>NAO ROBOT</title>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='home.css') }}" />
+  <style>
+    #lang {
+      display: none;
+    }
+  </style>
+</head>
+
+<body id="body_home">
+  <div class="hero-container">
+    <video id="background-video" autoplay loop muted src="{{ url_for('static', filename='ALICE_2.mp4') }}">
+      <source src="{{ url_for('static', filename='ALICE_2.mp4') }}" type="video/mp4" />
+      <script>
+        document.getElementById("background-video").play();
+      </script>
+    </video>
+    <h1>NAO</h1>
+    <p1> The Robot Companion</p1>
+    <div class="hero-btns">
+      <a href="{{url_for('chat', lang=default_lang)}}"><button class="home-btn">CHAT</button></a>
+      <a href="{{url_for('showcases', lang=default_lang)}}"><button class="home-btn">WELCOME</button></a>
+      <a href="{{url_for('movement', lang=default_lang)}}"><button class="home-btn">MOVE</button></a>
+    </div>
+  </div>
+</body>
+
+</html>

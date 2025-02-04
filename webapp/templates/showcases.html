@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="{{ language|d('en') }}">
+    <head> 
+        <title> NAO ROBOT WELCOME</title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='home.css') }}">
+        <!-- <script src="{{ url_for('static', filename='timeout.js') }}"></script>  -->
+        <script>
+            document.addEventListener("DOMContentLoaded", (ev) => {
+                document.querySelectorAll('.question-btn').forEach(
+                    (v, k, p) => {
+                        v.addEventListener('click', (ev) => {
+                            console.log(`Id: ${ev.target.id}, Class: ${ev.target.className}`)
+                            fetch('/test', {
+                                method: "POST",
+                                headers: {
+                                    "Content-Type": "application/json"
+                                },
+                                body: JSON.stringify({
+                                    "id": ev.target.id,
+                                    "class": ev.target.className                               })
+                            })
+                        })
+                    }
+                )
+            });
+
+        </script>
+    </head>
+    <body>
+        <video id="background-video" autoplay loop muted src="../static/VF_Living_Pattern_Data_1920.mp4">
+            <source src="../static/VF_Living_Pattern_Data_1920.mp4" type="video/mp4">
+        </video>
+        <div id="lang">
+            <a href="{{url_for('showcases', lang='en')}}"><button id="btn-eng" class="language-btn">ENG</button></a>
+            <a href="{{url_for('showcases', lang='de')}}"><button id="btn-de" class="language-btn">DE</button></a>
+        </div>
+
+        <div class='top-container'>
+            <h1> WELCOME</h1>
+            <div class="hero-btns">
+                <a href="{{url_for('chat', lang=lang)}}"><button class="home-btn"> CHAT</button></a>
+                <a href="/home"><button class="home-btn"> HOME </button></a>
+                <a href="{{url_for('movement', lang=lang)}}"><button class="home-btn"> MOVE</button></a>
+            </div>
+            <img id="arrow" src="../static/icons/arrow.png" width="80px" height="100px">
+        </div>
+        <div class="button-container">
+            <!-- insert icon -->
+                {%for key,value in statements.items()%}
+                <div id="{{ key }}">
+                    {%if key=="text"%}
+                        <!-- {%for key2, value2 in value.items()%}
+                            {%if key2=="Title"%}
+                                <h1> {{value2}} </h1>
+                            {%elif key2=="Para"%}
+                                <p> {{value2}}</p>
+                            {%elif key2=="Click"%}
+                                <p> {{value2}}</p>
+                            {%endif%}
+                        {%endfor%} -->
+                    {%elif key=="speech"%}
+                        {%for key2, value2 in value.items()%}
+                            <button id="{{ key2 }}" class="question-btn lang--{{ lang }} {{ key }}"> {{ value2 }}</button>
+                            {%if key2== "Stand/Waiting/TakePicture_1"%}
+                            {%endif%}
+                        {%endfor%}
+                    {%endif%}
+                </div>
+                {%endfor%}
+    
+        </div>
+    </body>
+</html>
+
+

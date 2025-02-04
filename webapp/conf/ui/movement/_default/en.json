@@ -1,0 +1,17 @@
+{
+    "text": {
+        "Title": "Chat with Nao!",
+        "Para": "Ask him about the showcases that are present here at the OMR",
+        "Click": "Click Here"
+    },
+    "move": {
+        "Stand/Gestures/Hey_3": "Greet us",
+        "Stand/Gestures/Salute_1": "Bow",
+        "Stand/Gestures/Stretch_1": "Stretch",
+        "Stand/Waiting/LoveYou_1": "I love you",
+        "Stand/Waiting/Fitness_3": "Show us your strength...",
+        "Stand/Waiting/AirGuitar_1": "Can you play us a song?",
+        "Stand/Waiting/DriveCar_1": "Hop into the car!",
+        "Stand/Waiting/HappyBirthday_1": "Sing Happy Birthday"
+    }
+}

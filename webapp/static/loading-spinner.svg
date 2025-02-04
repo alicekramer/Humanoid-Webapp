@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.0" viewBox="0 0 300 300">
+    <style>
+        .ws10-loading-spinner {
+            font-weight: 400;
+            line-height: 1.5;
+            color: #0d0d0d;
+            font-size: 16px;
+            z-index: 1003;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: fixed;
+            height: 100%;
+            width: 100%;
+            left: 0;
+            top: 0
+        }
+
+        @media screen and (min-width: 600px) {
+            .ws10-loading-spinner {
+                font-size: 18px
+            }
+        }
+
+        .ws10-loading-spinner svg {
+            z-index: 2000;
+            width: 300px;
+            height: 300px
+        }
+
+        .ws10-loading-spinner__indicator {
+            background: #fff;
+            opacity: 0.6;
+            height: 100%;
+            width: 100%;
+            position: fixed;
+            left: 0;
+            top: 0;
+            z-index: 1002
+        }
+
+        .ws10-loading-spinner .outer3 {
+            opacity: .3;
+            stroke-dasharray: 120 32;
+            animation: dashdraw 3.5s linear infinite;
+            animation-delay: .2s;
+            fill: none;
+            stroke: #e60000;
+            stroke-width: 2;
+            stroke-linejoin: round;
+            stroke-linecap: round
+        }
+
+        .ws10-loading-spinner .outer2 {
+            opacity: .6;
+            stroke-dasharray: 120 32;
+            animation: dashdraw 3.5s linear infinite;
+            animation-delay: .1s;
+            fill: none;
+            stroke: #e60000;
+            stroke-width: 3;
+            stroke-linejoin: round;
+            stroke-linecap: round
+        }
+
+        .ws10-loading-spinner .outer1 {
+            stroke-dasharray: 120 32;
+            animation: dashdraw 3.5s linear infinite;
+            fill: none;
+            stroke: #e60000;
+            stroke-width: 4;
+            stroke-linejoin: round;
+            stroke-linecap: round
+        }
+
+        .ws10-loading-spinner .center {
+            fill: #e60000
+        }
+
+        .ws10-loading-spinner--secondary .outer1,
+        .ws10-loading-spinner--secondary .outer2,
+        .ws10-loading-spinner--secondary .outer3,
+        .ws10-loading-spinner--secondary .outer4 {
+            stroke: #bebebe
+        }
+
+        .ws10-loading-spinner--secondary .center {
+            fill: #bebebe
+        }
+
+        .ws10-loading-spinner--inverse.ws10-loading-spinner--primary .outer1,
+        .ws10-loading-spinner--inverse.ws10-loading-spinner--primary .outer2,
+        .ws10-loading-spinner--inverse.ws10-loading-spinner--primary .outer3,
+        .ws10-loading-spinner--inverse.ws10-loading-spinner--primary .outer4 {
+            stroke: #fff
+        }
+
+        .ws10-loading-spinner--inverse.ws10-loading-spinner--primary .center {
+            fill: #fff
+        }
+
+        .ws10-loading-spinner--inverse.ws10-loading-spinner--secondary .outer1,
+        .ws10-loading-spinner--inverse.ws10-loading-spinner--secondary .outer2,
+        .ws10-loading-spinner--inverse.ws10-loading-spinner--secondary .outer3,
+        .ws10-loading-spinner--inverse.ws10-loading-spinner--secondary .outer4 {
+            stroke: #7e7e7e
+        }
+
+        .ws10-loading-spinner--inverse.ws10-loading-spinner--secondary .center {
+            fill: #7e7e7e
+        }
+
+        .ws10-loading-spinner--inverse .ws10-loading-spinner__indicator {
+            background: #0d0d0d
+        }
+
+        .ws10-loading-spinner--medium svg {
+            width: 148px;
+            height: 148px
+        }
+
+        .ws10-loading-spinner--small svg {
+            width: 76px;
+            height: 76px
+        }
+
+        .ws10-loading-spinner--nested {
+            position: absolute
+        }
+
+        @keyframes dashdraw {
+            to {
+                stroke-dashoffset: 610
+            }
+        }
+    </style>
+    <g class="ws10-loading-spinner">
+        <path class="outer3"
+            d="M185.65,40.86l-0.22,0c-28.22,0.33-57.74,11.7-78.99,30.42C79.44,93.61,62,129.95,62,163.92
+	c0,26.73,9.87,51.28,27.8,69.13c16.65,16.58,39.06,26.1,61.49,26.1c53.56,0,86.71-44.64,86.71-85.99c0-17.3-4.21-32.61-12.5-45.52
+	c-8.83-13.74-22.04-24.27-39.3-31.38c1.2-3.82,2.98-7.05,5.32-9.65c1.6-1.77,3.69-3.45,4.35-3.9"></path>
+        <path class="outer2"
+            d="M185.65,47.97l-0.13,0c-26.62,0.31-54.44,11.04-74.45,28.72c-25.49,21.03-41.95,55.25-41.95,87.22
+	c0,24.82,9.13,47.58,25.7,64.09c15.33,15.27,35.91,24.02,56.47,24.02c49.16,0,79.6-40.94,79.6-78.88c0-15.91-3.83-29.93-11.37-41.67
+	c-8.95-13.93-22.94-24.26-41.62-30.77c1.2-7.72,3.99-14.05,8.34-18.87c2.31-2.56,5.35-4.94,6.25-5.4"></path>
+        <path class="outer1"
+            d="M185.71,55.09l-0.11,0c-25.01,0.29-51.13,10.39-69.92,27.02c-23.97,19.73-39.45,51.82-39.45,81.81
+	c0,22.91,8.38,43.88,23.61,59.05c14,13.95,32.76,21.95,51.45,21.95c44.77,0,72.48-37.25,72.48-71.76c0-23.89-9.47-54.49-53.55-67.42
+	c0.42-7.31,2.21-19.2,10.73-28.65c2.57-2.85,6.31-5.98,8.37-7"></path>
+        <g id="center">
+            <path class="center"
+                d="M169.82,69.89c-12.5,15.07-12.76,33.09-12.86,40.02c-0.01,0.41-0.01,0.77-0.02,1.08l-0.12,4.83l4.7,1.14
+    c32.6,7.94,49.13,26.84,49.13,56.18c0,14.26-5.74,28.76-15.74,39.76c-7.83,8.62-21.76,18.89-43.62,18.89
+    c-15.25,0-30.62-6.61-42.19-18.13c-12.74-12.68-19.75-30.35-19.75-49.75c0-26.26,13.65-54.43,34.77-71.76l0.09-0.07l0.09-0.08
+    C136.61,81.07,153.13,73.18,169.82,69.89 M185.71,62.2c-0.01,0-0.02,0-0.03,0c-21.67,0.25-46.87,8.88-65.38,25.32
+    c-20.87,17.13-36.96,46.26-36.96,76.4c0,45.51,34.73,73.88,67.94,73.88c41.01,0,65.37-34.05,65.37-64.65
+    c0-30.78-16.84-53.02-53.71-62.01c0.01-0.33,0.01-0.71,0.02-1.15c0.09-6.47,0.34-23.99,12.7-37.68c2.7-2.99,7.17-6.97,10.48-8.61
+    C187.23,63.17,187.06,62.2,185.71,62.2L185.71,62.2z"></path>
+        </g>
+    </g>
+</svg>

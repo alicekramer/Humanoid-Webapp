@@ -1,0 +1,13 @@
+{
+    "text": {
+        "Title": "Chat with Nao!",
+        "Para": "Ask him about the showcases that are present here at the OMR",
+        "Click": "Click Here"
+    },
+    "speech": {
+        "GreetShowcase": "Welcome to Germany!",
+        "TickleShowcase": "Tickle me!",
+        "MorningShowcase": "Good morning!",
+        "LovelyShowcase": "Have a lovely day in Düsseldorf!"
+    }
+}
