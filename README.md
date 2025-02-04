@@ -1,4 +1,4 @@
-# ** Flask-Based Webapp for Human-Robot Interaction **
+# **Flask-Based Webapp for Human-Robot Interaction**
 - Robot reacts to button requests, initiating **speech** or **movement**
 - Enabled **picture-taking function**, where the humanoid robot, Nao, takes an image using the camera sensors in its eyes
 - Presented at **OMR** (Online Marketing Macher) conference in 2022 with ~70k attendees
@@ -6,7 +6,7 @@
 
 
 
-## ** Demo of Webapp **
+## **Demo of Webapp**
 
 https://github.com/user-attachments/assets/0fd3307a-6cb9-482a-81e0-bd359d20792a
 
