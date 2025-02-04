@@ -4,7 +4,10 @@
 - Presented at **OMR** (Online Marketing Macher) conference in 2022 with ~70k attendees
 - Currently used and displayed at the Vodafone **Innovation Garage** in Düsseldorf
 
-<video src="/Users/alicekramer/Desktop/Humanoid_Webapp/Nao_webapp.mov" controls="controls" width= "550px">
-</video>
+
+
+## ** Demo of Webapp **
+
+https://github.com/user-attachments/assets/0fd3307a-6cb9-482a-81e0-bd359d20792a
 
 
