@@ -10,4 +10,7 @@
 
 https://github.com/user-attachments/assets/0fd3307a-6cb9-482a-81e0-bd359d20792a
 
+## **Nao in Action at OMR conference**
+
+https://github.com/user-attachments/assets/74dc2d9b-7c0d-4f16-a2f2-c9774cbf220d
 
